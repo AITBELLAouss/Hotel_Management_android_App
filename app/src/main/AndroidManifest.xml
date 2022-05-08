@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HotelApp">
+        <activity
+            android:name=".RoomFive"
+            android:exported="false" />
+        <activity
+            android:name=".RoomFour"
+            android:exported="false" />
+        <activity
+            android:name=".RoomThree"
+            android:exported="false" />
+        <activity
+            android:name=".RoomTwo"
+            android:exported="false" />
+        <activity
+            android:name=".RoomOne"
+            android:exported="false" />
+        <activity
+            android:name=".VisaCard"
+            android:exported="false" />
+        <activity
+            android:name=".BookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowFoodDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SeventhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
